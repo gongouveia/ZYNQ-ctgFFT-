@@ -19,7 +19,7 @@ GenerateData (struct complex* acquisition_array,
 		u32 adc_acquisition_time_us)
 {
 	/* Init inputs */
-	for (int i=0; i < matrix_size; i++)
+	for (u32 i=0; i < matrix_size; i++)
 	{
 	  acquisition_array[i].real = (float) i;
 	  acquisition_array[i].imag = 0.0;

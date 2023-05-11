@@ -17,6 +17,7 @@ print_exectution_time(XTime tStart, XTime tEnd);
 void
 print_output_values(struct complex output_array[], u32 array_size);
 
-
+void
+print_output_moudlus_values(struct complex output_array[],u32 array_size);
 
 #endif // OUTPUT_H__
